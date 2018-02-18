@@ -1,0 +1,26 @@
+section#section-jobs.section
+  .section__jobs.parallax
+    .row
+      .col-xs-12
+        a.title-link(href="#section-jobs") ## #{data.jobs.text}
+          i(class='fas fa-link')
+
+    - const linkedin = data.contact.data.find(function(c) { return c.title === 'Linkedin';})
+    .row
+      each job, index in data.jobs.data
+        .col-xs-12.section__job
+          .card
+            .card__title
+              | <span class="bold">#{" " + job.title}</span> en <a href="#{job.url}" target="blank">#{job.company}</a>
+              i
+                | (#{job.from} - #{job.to})
+              a.show-only-xs(href=linkedin.url target="blank") Más info
+            .card__content
+              ul
+                each val, index in job.summary
+                  li !{val}
+
+    .col-xs-12.text-center
+      button.btn--arrow.go-to(data-href="section-education"): i(class='fas fa-arrow-down')
+
+

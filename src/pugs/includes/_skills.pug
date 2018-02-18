@@ -1,0 +1,15 @@
+section#section-skills.section
+  .section__skills
+    .section__skills--bg
+    .row
+      .col-xs-12
+        a.title-link(href="#section-skills") ## #{data.skills.text}
+          i(class='fas fa-link')
+
+    .row.section__skills__items
+      .col-xs-12.col-sm-8.col-offset-sm-2
+        each val, index in data.skills.data
+          a.tag(href=("https://www.google.com/search?q=" + val) target="blank") #{val}
+
+    .col-xs-12.text-center
+      button.btn--arrow.go-to(data-href="section-summary"): i(class='fas fa-arrow-down')

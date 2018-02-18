@@ -1,0 +1,30 @@
+section#section-iam.section
+  .section__iam
+    .section__iam--bg
+    .row
+      .col-xs-12
+        a.title-link(href="#section-iam") ## #{data.iam.text}
+          i(class='fas fa-link')
+
+      .col-xs-12.col-sm-5.col-offset-sm-1.section__iam--yes
+        .card
+          .card__title
+            i(class='far fa-thumbs-up')
+            | #{" "} Qué soy
+          .card__content
+            ul.list-ok
+              each val, index in data.iam.yes
+                li !{val}
+
+      .col-xs-12.col-sm-5.section__iam--no
+        .card
+          .card__title
+            i(class='far fa-thumbs-down')
+            | #{" "} Qué NO soy
+          .card__content
+            ul.list-ko
+              each val, index in data.iam.no
+                li !{val}
+
+    .col-xs-12.text-center
+      button.btn--arrow.go-to(data-href="section-jobs"): i(class='fas fa-arrow-down')

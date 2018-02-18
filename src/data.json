@@ -1,0 +1,244 @@
+{
+  "personal": {
+    "icon": "fas fa-info-circle",
+    "text": "Personal",
+    "name": "Luis Miguel Fresneda",
+    "title": "Really Normal Developer",
+    "ilivein": "Castro Urdiales, Cantabria",
+    "birthdate": {
+      "year": 1983,
+      "month": 12,
+      "day": 31
+    }
+  },
+  "contact": {
+    "icon": "fas fa-at",
+    "text": "Contacto",
+    "data": [
+      {
+        "icon": "fas fa-at",
+        "title": "Email",
+        "text": "lmiguelfresneda@gmail.com",
+        "url": "mailto:lmiguelfresneda@gmail.com"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "title": "Linkedin",
+        "text": "luismiguelfresneda",
+        "url": "https://www.linkedin.com/in/luismiguelfresneda/"
+      },
+      {
+        "icon": "fab fa-github",
+        "title": "Github",
+        "text": "lmfresneda",
+        "url": "https://github.com/lmfresneda"
+      },
+      {
+        "icon": "fab fa-telegram",
+        "title": "Telegram",
+        "text": "@luis_miguelfr",
+        "url": "https://t.me/luis_miguelfr"
+      }
+    ]
+  },
+  "skills": {
+    "icon": "far fa-address-card",
+    "text": "Skills",
+    "data": [
+      "Programación Web",
+      "Javascript",
+      "Vue.js",
+      "Adaptable",
+      "Full Stack",
+      "Git",
+      "C#",
+      "Trabajo en equipo",
+      "Otros lenguajes",
+      "Node.js",
+      "Express.js"
+    ]
+  },
+  "summary": {
+    "icon": "far fa-file-alt",
+    "text": "Resumen",
+    "data": [
+      "Actualmente estoy trabajando con Vue.js. También estoy manteniendo aplicaciones con el stack jQuery/Bootstrap/Handlebars. Por mi cuenta estoy <a href=\"https://github.com/lmfresneda/crypto-price\" target=\"blank\">experimentando</a> con Quasar Framework.",
+      "Siempre he trabajado con javascript, y también con C# la mayor parte del tiempo. Reconozco que me siento a gusto con javascript, aunque no soy de cerrarme puertas.",
+      "He tocado por mi cuenta node.js, express.js, mongoose, react.js, y más. Me gusta ver qué hay de nuevo en el mundillo.",
+      "Conozco Java y Php, aunque no los he trabajado profesionalmente. Me adapto a todo, no le tengo miedo a nada, laboralmente hablando.",
+      "También trabajo con Git y he trabajado con Subversion. Obviamente conozco SQL, he trabajado con las BBDD más comunes (SQL Server, Oracle, MySQL, MongoDB)."
+    ]
+  },
+  "iam": {
+    "icon": "far fa-user-circle",
+    "text": "Qué soy",
+    "yes": [
+      "Soy desarrollador.",
+      "Me apasiona este sector.",
+      "Soy proactivo. No me gusta dormirme en los laureles.",
+      "Me gusta mantenerme al día. Leo blogs, veo vídeos, asisto a charlas (codemotion, bilbostack, etc).",
+      "Me gusta intentar tener al menos un proyecto vivo en github.",
+      "He trabajado en equipo y en solitario y me he adaptado bien siempre.",
+      "Me da igual el lenguaje/framework/plataforma.",
+      "No me da miedo nada, laboralmente hablando."
+    ],
+    "no": [
+      "No hablo inglés :( Ya estoy dando clases particulares para solucionarlo. De momento, no tengo problemas con documentación.",
+      "No soy comercial.",
+      "No soy de sistemas.",
+      "No soy un ninja, master, x-man, (ponga una palabra molona) developer. Soy desarrollador, ¿bueno? eso dímelo tu.",
+      "No lo sé todo, pero una cosa tengo clara, si tengo que aprender algo, doy todo hasta que lo aprendo."
+    ]
+  },
+  "jobs": {
+    "icon": "fas fa-tasks",
+    "text": "Experiencia",
+    "data": [
+      {
+        "from": "Enero 2016",
+        "to": "Actualmente",
+        "title": "Analista programador",
+        "company": "Fieldeas - Easy Field Service",
+        "location": "Santander, Cantabria",
+        "url": "https://www.fieldeas.com/",
+        "linkedin": "",
+        "summary": [
+          "Actualmente trabajo en Fieldeas desde Enero de 2016, una Spin Off del <a href=\"https://www.cic.es/\" target=\"blank\">Grupo CIC</a>, para comercializar y evolucionar su plataforma <a href=\"https://www.cic.es/fieldeas/\" target=\"blank\">Fieldeas DaaT</a>. En total, en el Grupo CIC llevo desde Marzo de 2014.",
+          "Básicamente mi trabajo se desarrolla bajo un entorno front la mayoría del tiempo, basándonos en Javascript y de forma más concreta, últimamente trabajamos con Vue.js para entorno web de escritorio y Onsen UI para entorno web móvil, aunque mantenemos aplicaciones y evolutivos bajo el stack jQuery/Bootstrap/Handlebars.",
+          "No solo me quedo en el front, la mayoría de los días me toca bajar a back a trabajar con apis rest, servicios de windows, conectores de datos, web services, web forms, etc. Bajo un entorno microsoft.",
+          "Trabajamos para la mayoría de los sectores laborales, como transporte y paquetería, parkings, gestión de flotas, energía, telecomunicaciones, Administración Pública, transporte público, mantenimiento (gestión de órdenes de trabajo), etc."
+        ]
+      },
+      {
+        "from": "Marzo 2014",
+        "to": "Enero 2016",
+        "title": "Programador",
+        "company": "CIC Consulting Informático de Cantabria",
+        "location": "Santander, Cantabria",
+        "url": "https://www.cic.es/",
+        "linkedin": "",
+        "summary": [
+          "En mi puesto de trabajo me encargaba, mayormente, de crear y mantener sites bajos el stack jQuery/Bootstrap/Handlebars.",
+          "Además, combinada la parte web con desarrollos en el backend para hacer Web Apis, Servicios de Windows, conectores, etc. En un entorno Microsoft con C# y Sql Server como SGBD.",
+          "Los procesos que integraba eran de muy diversos sectores, como transporte y paquetería, parkings, gestión de flotas, energía, telecomunicaciones, Administración Pública, transporte público, mantenimiento (gestión de órdenes de trabajo), etc."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "icon": "fas fa-graduation-cap",
+    "text": "Educación",
+    "data": [
+      {
+        "from": "2012",
+        "to": "2014",
+        "title": "Técnico Superior en Desarrollo de Aplicaciones Web (CFGS)",
+        "location": "Alcalá de Henares (Madrid) & Castro Urdiales (Cantabria)",
+        "school": "IES Alonso de Avellaneda & IES Ataulfo Argenta",
+        "extra": [
+          {
+            "key": "",
+            "value": "<a href=\"http://www.madrid.org/fp/ense_fp/catalogo_LOE/pdf/IFCS03/curriculo/D20110001_TS_Desarrollo_Aplicaciones_Web.pdf\" target=\"blank\">Currículo</a>"
+          }
+        ]
+      },
+      {
+        "from": "2015",
+        "to": "2015",
+        "title": "Desarrollo en HTML, Javascript y Node.js",
+        "location": "Online",
+        "school": "<a href=\"https://miriadax.net/\" target=\"blank\">Miriada X</a>",
+        "extra": [
+          {
+            "key": "Temas:",
+            "value": "HTML5, javascript, node.js y express.js"
+          },
+          {
+            "key": "",
+            "value": "5 semanas"
+          }
+        ]
+      },
+      {
+        "from": "2014",
+        "to": "2014",
+        "title": "Desarrollo en HTML5, CSS, javascript + FirefoxOS",
+        "location": "Online",
+        "school": "<a href=\"https://miriadax.net/\" target=\"blank\">Miriada X</a>",
+        "extra": [
+          {
+            "key": "Temas:",
+            "value": "HTML5, CSS, javascript y webapps en FirefoxOS"
+          },
+          {
+            "key": "",
+            "value": "5 semanas"
+          }
+        ]
+      },
+      {
+        "from": "2011",
+        "to": "2011",
+        "title": "Curso online de Programación Web",
+        "location": "Online",
+        "school": "<a href=\"https://aula10formacion.com/\" target=\"blank\">Aula10 Centro de Formación</a>",
+        "extra": [
+          {
+            "key": "Temas:",
+            "value": "HTML, CSS, PHP, javascript y photoshop"
+          },
+          {
+            "key": "",
+            "value": "150 horas"
+          }
+        ]
+      }
+    ]
+  },
+  "hobbies": {
+    "icon": "fab fa-angellist",
+    "text": "Aficiones",
+    "data": [
+      {
+        "icon": "far fa-heart",
+        "text": "Mi familia"
+      },
+      {
+        "icon": "fas fa-code",
+        "text": "La programación"
+      },
+      {
+        "icon": "fas fa-headphones",
+        "text": "La música"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "La lectura"
+      },
+      {
+        "icon": "fas fa-bicycle",
+        "text": "Montar en bicicleta"
+      },
+      {
+        "icon": "fas fa-coffee",
+        "text": "El café"
+      },
+      {
+        "text": "... y más!"
+      }
+    ]
+  },
+  "footer": {
+    "icon": "far fa-heart",
+    "first_words": "¡Muchas gracias por llegar hasta aquí!",
+    "youcans": [
+      "Puedes <a class=\"go-to\" data-href=\"section-contact\" href=\"#\">contactar conmigo</a>",
+      "Puedes <a target=\"blank\" href=\"https://github.com/lmfresneda\">ver qué ando haciendo</a>",
+      "O puedes simplemente invitarme a <a class=\"go-to\" data-href=\"section-hobbies\" href=\"#\">café</a> <i class=\"far fa-hand-peace\"></i>"
+    ],
+    "by": {
+      "link": "https://github.com/lmfresneda",
+      "name": "lmfresneda"
+    }
+  }
+}

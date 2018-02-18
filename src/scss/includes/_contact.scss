@@ -1,0 +1,18 @@
+.section__contact {
+  background-image: url("../assets/contact.jpg");
+  position: relative;
+
+  &--row {
+    margin-top: calc(50vh - 174px);
+
+    > div {
+      text-align: right;
+    }
+  }
+
+  @media only screen and (max-width: $xs-size) {
+    &--row {
+      margin-top: calc(50vh - 106px);
+    }
+  }
+}

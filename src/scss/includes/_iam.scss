@@ -1,0 +1,49 @@
+.section__iam {
+  position: relative;
+
+  &--bg {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: repeating-radial-gradient(
+      circle,
+      #ec00ec,
+      #ec00ec 0px,
+      #4b026f 50px,
+      #4b026f 30px
+    );
+    opacity: .2;
+  }
+
+  &--yes, &--no {
+    margin-top: 10vh;
+  }
+
+  @media only screen and (max-width: $xs-size) {
+    &--yes, &--no {
+      margin-top: 0px;
+      ul {
+        list-style: none !important;
+        padding-left: 0px !important;
+      }
+      li {
+        font-size: .7rem !important;
+      }
+    }
+
+    .card__title {
+      padding: 5px !important;
+    }
+  }
+
+  @media only screen and (min-width: $xs-size + 1px) and (max-width: $sm-size) {
+    &--yes, &--no {
+      margin-top: 5vh;
+    }
+  }
+
+  &--no {
+    vertical-align: top;
+  }
+
+}

@@ -1,0 +1,146 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: $primary-color;
+  margin: 0px;
+  padding: 0px;
+  color: $text-color;
+  overflow-x: hidden;
+}
+::selection {
+  background: $text-color;
+  color: $primary-color;
+}
+
+.section {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(245, 245, 245);
+  font-size: 1.5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+
+  @media only screen and (max-width: $xs-size) {
+    font-size: .9rem;
+  }
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@keyframes moveArrow {
+  from {
+    transform: translateY(-1px);
+  }
+
+  to {
+    transform: translateY(5px);
+  }
+}
+
+.btn--arrow {
+  background-color: transparent;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  outline:none;
+
+  svg {
+    animation-duration: .6s;
+    animation-name: moveArrow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.list-unstyled {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+a {
+  color: $secondary-color;
+  transition: .1s background-color, .1s color;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $secondary-color;
+    color: white;
+  }
+}
+
+.title-link {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    color: $text-color;
+    svg {
+      display: inline-block;
+    }
+  }
+
+  svg {
+    font-size: .7em;
+    opacity: .8;
+    margin-left: 5px;
+    vertical-align: middle;
+    display: none;
+  }
+}
+
+.show-only-xs {
+  display: none;
+  @media only screen and (max-width: $xs-size) {
+    display: inline-block;
+  }
+}
+.hide-xs {
+  @media only screen and (max-width: $xs-size) {
+    display: none;
+  }
+}
+
+.tag {
+  display: inline-block;
+  background-color: $secondary-color;
+  color: $primary-color;
+  padding: 5px;
+  font-size: 1.3rem;
+  margin: 5px;
+  box-shadow: 2px 2px 3px 0px $tag-shadow-color;
+  text-decoration: none;
+
+  &:hover {
+    background-color: lighten($secondary-color, 5%);
+  }
+
+  @media only screen and (max-width: $xs-size) {
+    font-size: .9rem;
+  }
+}

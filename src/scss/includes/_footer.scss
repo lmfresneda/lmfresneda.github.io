@@ -1,0 +1,27 @@
+.section__footer {
+  background-image: url("../assets/footer.jpg");
+  position: relative;
+
+  &--row {
+
+    > div {
+      margin-top: calc(50vh - 243px);
+
+      > svg {
+        font-size: 4rem;
+        color: rgb(151, 56, 56);
+      }
+
+      > div {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &__c {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: .7rem;
+  }
+}

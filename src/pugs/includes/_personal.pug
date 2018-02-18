@@ -1,0 +1,23 @@
+section#section-personal.section
+  .section__personal
+    .section__personal--bg1
+    .section__personal--bg2
+    .row
+      .col-xs-12
+        a.title-link(href="#section-personal") ## #{data.personal.text}
+          i(class='fas fa-link')
+
+    .row.section__personal--row
+        .col-xs-11.col-offset-xs-1.col-sm-10.col-offset-sm-2
+          ul.list-unstyled
+            li
+              | Me llamo <span class="bold">#{data.personal.name}</span>
+            li
+              | Soy un <span class="bold"><i>#{data.personal.title}</i></span>
+            li
+              | Vivo en <a href="https://goo.gl/maps/yn64wBFWHck" target="blank"><span class="bold">#{data.personal.ilivein}</span></a>
+            li
+              | Tengo <span class="bold">#{data.personal.age}</span> años
+
+    .col-xs-12.text-center
+      button.btn--arrow.go-to(data-href="section-contact"): i(class='fas fa-arrow-down')

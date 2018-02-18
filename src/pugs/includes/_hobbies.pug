@@ -1,0 +1,21 @@
+section#section-hobbies.section
+  .section__hobbies.parallax
+    .row
+      .col-xs-12
+        a.title-link(href="#section-hobbies") ## #{data.hobbies.text}
+          i(class='fas fa-link')
+
+    .row.section__hobbies__items
+      .col-xs-12.text-center
+        | Y en este orden #[i(class="far fa-hand-point-right")]
+      .col-xs-12.col-sm-8.col-offset-sm-2.text-center
+        each val, index in data.hobbies.data
+          span.tag
+            if val.icon
+              i(class=val.icon)
+            | #{" " + val.text}
+
+    .col-xs-12.text-center
+      button.btn--arrow.go-to(data-href="section-footer"): i(class='fas fa-arrow-down')
+
+

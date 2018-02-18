@@ -1,0 +1,14 @@
+section#section-summary.section
+  .section__summary.parallax
+    .row
+      .col-xs-12
+        a.title-link(href="#section-summary") ## #{data.summary.text}
+          i(class='fas fa-link')
+
+    .row.section__summary--row
+      .col-xs-12.col-sm-10.col-offset-sm-1
+        each val, index in data.summary.data
+          p !{val}
+
+    .col-xs-12.text-center
+      button.btn--arrow.go-to(data-href="section-iam"): i(class='fas fa-arrow-down')

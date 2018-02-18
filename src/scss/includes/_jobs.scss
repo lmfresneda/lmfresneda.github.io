@@ -1,0 +1,50 @@
+.section__jobs {
+  background-image: url("../assets/jobs.jpg");
+  position: relative;
+
+  .section__job {
+
+    .card__title {
+      font-size: 1rem;
+
+      i {
+        font-size: .8rem;
+        display: block;
+      }
+
+      a {
+        color: white;
+      }
+    }
+
+    @media only screen and (max-width: $xs-size) {
+      &:first-of-type {
+        margin-top: calc(50vh - 250px);
+      }
+
+      .card__title {
+        font-size: 1.1rem;
+
+        a {
+          display: block;
+        }
+
+        i {
+          font-size: .9rem;
+          margin-top: 5px;
+        }
+      }
+
+      .card__content {
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: $xs-size + 1px) and (max-width: $sm-size) {
+      .card__content {
+        font-size: .9rem;
+      }
+    }
+  }
+
+}

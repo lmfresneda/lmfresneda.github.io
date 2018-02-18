@@ -1,0 +1,36 @@
+.section__personal {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+
+  &--bg1, &--bg2 {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+  }
+  &--bg1 {
+    background-color: rgb(153, 185, 255);
+    transform: skew(30deg,15deg);
+    box-shadow: -2px 4px 4px rgba(0,0,0,.5);
+  }
+  &--bg2 {
+    background-color: rgba(1, 189, 64, .3);
+    transform: skew(-30deg,-35deg);
+    // opacity: .3;
+    box-shadow: 3px 6px 3px 0px rgba(0,0,0,.5);
+  }
+
+  &--row {
+    margin-top: calc(50vh - 181px);
+  }
+
+  li {
+    margin-top: 10px;
+  }
+
+  @media only screen and (max-width: $xs-size) {
+    &--row {
+      margin-top: calc(50vh - 126px);
+    }
+  }
+}
